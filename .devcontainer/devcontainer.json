@@ -1,0 +1,35 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+{
+  "name": "nodejs-devcontainer",
+  "build": {
+    "dockerfile": "../Dockerfile",
+    "context": "../",
+    "target": "dev"
+  },
+  "features": {
+    "ghcr.io/devcontainers/features/common-utils:2": {}
+  },
+  "runArgs": [
+    "--userns=keep-id",
+    "--pid=host"
+  ],
+  "customizations": {
+    // Configure properties specific to VS Code.
+    "vscode": {
+      // Add the IDs of extensions you want installed when the container is created.
+      "extensions": [
+        "Shopify.ruby-extensions-pack",
+        "esbenp.prettier-vscode",
+        "redhat.vscode-yaml",
+        "AquaSecurityOfficial.trivy-vulnerability-scanner",
+        "github.vscode-github-actions",
+        "GitHub.vscode-pull-request-github",
+        "GitHub.remotehub",
+        "streetsidesoftware.code-spell-checker"
+      ],
+      "settings": {
+        "editor.tabSize": 4
+      }
+    }
+  }
+}
