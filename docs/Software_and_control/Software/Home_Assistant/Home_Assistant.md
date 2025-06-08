@@ -1,6 +1,7 @@
 ---
 title: Home Assistant
 parent: Software
+layout: default
 ---
 
 
