@@ -1,8 +1,20 @@
 title: LibreHEMS
-description: Your goto resource for all things Home Energy Management
+description: Empowering homeowners with open-source tools to lower energy costs, reduce carbon emissions, and earn revenue by supporting the electric grid.
 theme: just-the-docs
+
+logo: "/assets/libreHEMS.jpg"
 
 url: https://librehems.github.io/
 
 aux_links:
   Template Repository: https://github.com/just-the-docs/just-the-docs-template
+
+
+color_scheme: dark
+
+# option to edit page 
+gh_edit_link: true 
+gh_edit_link_text: "Edit this page on GitHub."
+gh_edit_repository: "https://github.com/LibreHEMS/LibreHEMS.github.io" 
+gh_edit_branch: "main"
+gh_edit_view_mode: "edit"
