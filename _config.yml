@@ -29,8 +29,4 @@ gh_edit_branch: "main"
 gh_edit_view_mode: "edit"
 
 
-footer_links:
-  - title: Terms of Use
-    url: /TERMS-OF-USE.md # Or the name of your file
-  - title: GitHub
-    url: https://github.com/LibreHEMS/LibreHEMS.github.io
+footer_content: "© 2025 LibreHEMS Project · <a href="/TERMS-OF-USE">Terms of Use</a> · Licensed under <a href="/LICENSE">MIT License</a>"
