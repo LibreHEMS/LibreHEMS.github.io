@@ -27,3 +27,10 @@ gh_edit_link_text: "Edit this page on GitHub."
 gh_edit_repository: "https://github.com/LibreHEMS/LibreHEMS.github.io" 
 gh_edit_branch: "main"
 gh_edit_view_mode: "edit"
+
+
+footer_links:
+  - title: Terms of Use
+    url: /TERMS-OF-USE.md # Or the name of your file
+  - title: GitHub
+    url: https://github.com/LibreHEMS/LibreHEMS.github.io
